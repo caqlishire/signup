@@ -1,0 +1,61 @@
+html, .bg-color {
+  background-color: #E4EBF0;
+}
+
+a {
+  transition: all 1.5s ease !important;
+  color: #FFFFFF !important;
+}
+
+a:hover, .a-other:hover {
+  color: #4180AB !important;
+}
+
+p + p {
+  margin-top: 10%;
+}
+
+i {
+  color: #4180AB;
+}
+
+.input:focus {
+  border-color: #8AB3CF;
+}
+
+.select select:focus {
+  border-color: #8AB3CF;
+}
+
+.a-other {
+  color: #8AB3CF !important;
+}
+
+.box {
+  border-radius: 1px;
+}
+
+.button {
+  background-color: #8AB3CF;
+}
+
+.button:hover {
+  background-color: #E4EBF0;
+}
+
+.center-align {
+  display: flex;
+  align-items: center;
+}
+
+.header-color {
+  background-color: #8AB3CF;
+}
+
+.header-pill-color {
+  color: #FFFFFF;
+}
+
+.pallete {
+  colors: #4180AB,#FFFFFF,#8AB3CF,#BDD1DE,#E4EBF0;
+}
