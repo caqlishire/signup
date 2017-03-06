@@ -11,6 +11,10 @@ a:hover, .a-other:hover {
   color: #4180AB !important;
 }
 
+.a-other:hover{
+  text-decoration: underline;
+}
+
 p + p {
   margin-top: 10%;
 }
