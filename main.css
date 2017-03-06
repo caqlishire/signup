@@ -31,6 +31,14 @@ i {
   border-color: #8AB3CF;
 }
 
+.select:after {
+  border-color: #8AB3CF;
+}
+
+.nav-toggle.is-active span {
+  background-color: #4180AB;
+}
+
 .a-other {
   color: #8AB3CF !important;
 }
