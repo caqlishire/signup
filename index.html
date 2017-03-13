@@ -12,8 +12,7 @@
   src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
   integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
   crossorigin="anonymous"></script>
-
-    <script src="main.js"></script>
+<script src="main.js"></script>
 
 <section class="hero is-fullheight bg-color">
   <div class="hero-head header-color">
@@ -78,7 +77,8 @@
 
                 <div class="columns">
                   <div class="column">
-                    <input class="input" type="password" placeholder="Password">
+                    <input id="password" class="input" type="password" placeholder="Password">
+                    <meter max="4" id="password-strength-meter"></meter>
                   </div>
                 </div>
 
@@ -146,5 +146,9 @@
   </div>
 
 </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.4.2/zxcvbn.js"></script>
+<script src="./pass.js"></script>
+
 
 </html>
